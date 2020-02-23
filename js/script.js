@@ -22,7 +22,7 @@ function randomWaktu(min, max) {
 
 function munculkanTikus() {
   const tRandom = randomTanah(tanah);
-  const wRandom = randomWaktu(300, 1000);
+  const wRandom = randomWaktu(300, 800);
   tRandom.classList.add("muncul");
 
   setTimeout(() => {
@@ -40,7 +40,7 @@ function mulai() {
   munculkanTikus();
   setTimeout(() => {
     selesai = true;
-  }, 20000);
+  }, 15000);
 }
 
 function pukul() {
